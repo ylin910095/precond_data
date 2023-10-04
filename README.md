@@ -1,4 +1,4 @@
-# Test data for neural-network preconditioners 
+# Test data for neural-network preconditioners for Ref. [1]
 This repository contains all of the test data presented in Ref. [1] of two-dimensional, two-flavor $U(1)$ lattice gauge theories. ***Angles*** of $U(1)$ fields are stored in `npy` files. $U(1)$ fields can be easily loaded by, for example,
 ```python
 import numpy as np

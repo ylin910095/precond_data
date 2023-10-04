@@ -11,6 +11,7 @@ All configuration files follow the naming format `config.l{lattice_geom}-N{num_c
   - `num_config`: number of configurations.
   - `beta`: $\beta$, the inverse gauge coupling.
   - `kappa`: $\kappa$, the hopping parameter. It is related to the quark mass $m$ by $\kappa = 1/(2(m+2))$.
+
 See Ref. [1] for details and the Dirac operator.
 
 The repository also contains `analysis_autocorr.py` that computes the variances of plquettes with different numbers of blocking to show the autocorrelation (you need to install `gvar` to use it).
